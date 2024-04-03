@@ -275,7 +275,7 @@ func calculate(_ args: [String]) -> Double {
            case "/":
                result = val_1 / val_2
            case "%":
-           result = val_1.truncatingRemainder(dividingBy: val_2)
+           result = val_1.remainder(dividingBy: val_2)
            default:
                result = 0
            
@@ -324,7 +324,7 @@ func calculate(_ arg: String) -> Double {
             case "/":
                 result = val_1 / val_2
             case "%":
-            result = val_1.truncatingRemainder(dividingBy: val_2)
+            result = val_1.remainder(dividingBy: val_2)
             default:
                 result = 0
             
